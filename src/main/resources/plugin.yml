@@ -1,0 +1,11 @@
+name: PickaxesPlus
+version: ${project.version}
+main: com.gestankbratwurst.pickaxesplus.PickaxesPlus
+api-version: 1.16
+authors: [Gestankbratwurst]
+description: Extra pickaxes
+commands:
+  excavation:
+    description: This adds the excavation enchantment to an item
+    usage: /<command> <lvl>
+    permission: pickaxesplus.commands.excavation
